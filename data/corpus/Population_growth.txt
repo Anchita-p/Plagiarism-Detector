@@ -1,0 +1,80 @@
+Population growth is the increase in the number of people in a population or dispersed group.  The global population has grown from 1 billion in 1800 to 8.2 billion in 2025. Actual global human population growth amounts to around 70 million annually, or 0.85% per year. As of 2024, The United Nations projects that global population will peak in the mid-2080s at around 10.3 billion. The UN's estimates have decreased strongly in recent years due to sharp declines in global birth rates. 
+Others have challenged many recent population projections as having underestimated population growth.
+The world human population has been growing since the end of the Black Death, around the year 1350. A mix of technological advancement that improved agricultural productivity and sanitation and medical advancement that reduced mortality increased population growth. In some geographies, this has slowed through the process called the demographic transition, where many nations with high standards of living have seen a significant slowing of population growth. This is in direct contrast with less developed contexts, where population growth is still happening. Globally, the rate of population growth has declined from a peak of 2.2% per year in 1963. 
+Population growth alongside increased consumption is a driver of environmental concerns, such as biodiversity loss and climate change, due to overexploitation of natural resources for human development. Hence, population reduction is discussed as a sustainability strategy, though its potential is limited to allow free individual life choices. International policy focused on mitigating the impact of human population growth is concentrated in the Sustainable Development Goals which seeks to improve the standard of living globally while reducing the impact of society on the environment while advancing human well-being. 
+
+World population has been rising continuously since the end of the Black Death, around the year 1350. Population began growing rapidly in the Western world during the industrial revolution. The most significant increase in the world's population has been since the 1950s, mainly due to medical advancements and increases in agricultural productivity.
+
+Due to its dramatic impact on the human ability to grow food, the Haber process, named after one of its inventors, the German chemist Fritz Haber, served as the "detonator of the population explosion", enabling the global population to increase from 1.6 billion in 1900 to 7.7 billion by November 2019.
+
+Some of the reasons for the "Modern Rise of Population" were particularly investigated by the British health scientist Thomas McKeown (1912–1988). In his publications, McKeown challenged four theories about the population growth:
+
+McKeown stated that the growth in Western population, particularly surging in the 19th century, was not so much caused by an increase in fertility, but largely by a decline of mortality particularly of childhood mortality followed by infant mortality,
+The decline of mortality could largely be attributed to rising standards of living, whereby McKeown put most emphasis on improved nutritional status,
+McKeown questioned the effectiveness of public health measures, including sanitary reforms, vaccination and quarantine,
+The "McKeown thesis" states that curative medicine measures played little role in mortality decline, not only prior to the mid-20th century but also until well into the 20th century.
+Although the McKeown thesis has been heavily disputed, recent studies have confirmed the value of his ideas. His work is pivotal for present day thinking about population growth, birth control, public health and medical care. McKeown had a major influence on many population researchers, such as health economists and Nobel prize winners Robert W. Fogel (1993) and Angus Deaton (2015). The latter considered McKeown as "the founder of social medicine".
+
+The "population growth rate" is the rate at which the number of individuals in a population increases in a given time period, expressed as a fraction of the initial population. Specifically, population growth rate refers to the change in population over a unit time period, often expressed as a percentage of the number of individuals in the population at the beginning of that period. This can be written as the formula, valid for a sufficiently small time interval:
+
+  
+    
+      
+        
+          Population growth rate
+        
+        =
+        
+          
+            
+              P
+              (
+              
+                t
+                
+                  2
+                
+              
+              )
+              −
+              P
+              (
+              
+                t
+                
+                  1
+                
+              
+              )
+            
+            
+              P
+              (
+              
+                t
+                
+                  1
+                
+              
+              )
+              (
+              
+                t
+                
+                  2
+                
+              
+              −
+              
+                t
+                
+                  1
+                
+              
+              )
+            
+          
+        
+      
+    
+    {\displaystyle {\text{Population growth rate}}={\frac {P(t_{2})-P(t_{1})}{P(t_{1})(t_{2}-t_{1})}}}

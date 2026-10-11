@@ -1,0 +1,21 @@
+# Core NLP
+nltk>=3.8
+scikit-learn>=1.3
+numpy
+torch>=2.2
+sentence-transformers>=3.0
+transformers>=4.41
+
+# Old Intel Macs only get PyTorch up to 2.2, so pip picks older compatible
+# versions there. Any other laptop (Windows, Linux, Apple Silicon) gets the latest.
+numpy<2; sys_platform == "darwin" and platform_machine == "x86_64"
+sentence-transformers<4; sys_platform == "darwin" and platform_machine == "x86_64"
+transformers<4.47; sys_platform == "darwin" and platform_machine == "x86_64"
+
+# Web server and file handling
+flask>=3.0
+pypdf>=4.0
+python-docx>=1.1
+requests>=2.31
+pandas>=2.0
+tabulate>=0.9

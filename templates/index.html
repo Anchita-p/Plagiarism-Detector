@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plagiarism Detector</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='14' cy='14' r='9' fill='none' stroke='%233b5bdb' stroke-width='4'/%3E%3Cpath d='M21 21l7 7' stroke='%233b5bdb' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
+        <rect x="5" y="3" width="17" height="22" rx="3" fill="none" stroke="currentColor" stroke-width="2.2"/>
+        <path d="M9 10h9M9 14h9M9 18h5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+        <circle cx="22" cy="22" r="5.5" fill="var(--bg)" stroke="var(--accent)" stroke-width="2.4"/>
+        <path d="M26 26l3.5 3.5" stroke="var(--accent)" stroke-width="2.6" stroke-linecap="round"/>
+      </svg>
+      <div>
+        <h1>Plagiarism Detector</h1>
+        <p class="tagline">N-grams · TF-IDF · Sentence-BERT</p>
+      </div>
+    </div>
+    <div class="status" id="corpus-status">Loading sources…</div>
+  </header>
+
+  <main>
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-tab="check" role="tab">Check document</button>
+      <button class="tab" data-tab="compare" role="tab">Compare two documents</button>
+      <button class="tab" data-tab="sources" role="tab">Source library</button>
+    </nav>
+
+    <!-- Check against the source library -->
+    <section class="panel active" id="panel-check">
+      <p class="intro">Paste text or upload a file. Every sentence is compared with all sources
+        in the library to find copied and paraphrased passages. Or use <b>Search the web</b>
+        to look for sources anywhere on the internet (a little slower).</p>
+      <div class="card input-card">
+        <div class="input-head">
+          <span class="label">Document to check</span>
+          <div class="samples" id="samples"></div>
+        </div>
+        <textarea id="check-text" placeholder="Paste your essay or assignment here…"></textarea>
+        <div class="input-foot">
+          <label class="file-btn">
+            <input type="file" id="check-file" accept=".txt,.pdf,.docx" hidden>
+            <span>Upload .txt / .pdf / .docx</span>
+          </label>
+          <span class="file-name" id="check-file-name"></span>
+          <span class="count" id="check-count">0 words</span>
+          <button class="secondary" id="web-btn" title="Search Google for each sentence (needs SERPER_API_KEY)">Search the web</button>
+          <button class="primary" id="check-btn">Check plagiarism</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Document vs document -->
+    <section class="panel" id="panel-compare">
+      <p class="intro">Compare two documents directly, for example two students' assignments,
+        or an essay and the source you suspect it was taken from.</p>
+      <div class="two-col">
+        <div class="card input-card">
+          <div class="input-head"><span class="label">Suspicious document</span></div>
+          <textarea id="cmp-a-text" placeholder="Paste the document to check…"></textarea>
+          <div class="input-foot">
+            <label class="file-btn"><input type="file" id="cmp-a-file" accept=".txt,.pdf,.docx" hidden><span>Upload file</span></label>
+            <span class="file-name" id="cmp-a-file-name"></span>
+          </div>
+        </div>
+        <div class="card input-card">
+          <div class="input-head"><span class="label">Source document</span></div>
+          <textarea id="cmp-b-text" placeholder="Paste the original source…"></textarea>
+          <div class="input-foot">
+            <label class="file-btn"><input type="file" id="cmp-b-file" accept=".txt,.pdf,.docx" hidden><span>Upload file</span></label>
+            <span class="file-name" id="cmp-b-file-name"></span>
+          </div>
+        </div>
+      </div>
+      <div class="actions"><button class="primary" id="compare-btn">Compare documents</button></div>
+    </section>
+
+    <!-- Source library -->
+    <section class="panel" id="panel-sources">
+      <p class="intro">Documents are checked against these sources. Add your own: upload any
+        file, or fetch a Wikipedia article by topic. New sources are indexed in a few seconds.</p>
+      <div class="two-col">
+        <div class="card">
+          <span class="label">Upload a source document</span>
+          <p class="hint">Textbook chapters, notes, papers, previous submissions…</p>
+          <div class="row">
+            <label class="file-btn"><input type="file" id="src-file" accept=".txt,.pdf,.docx" hidden><span>Choose file</span></label>
+            <span class="file-name" id="src-file-name"></span>
+            <button class="primary" id="src-upload-btn">Add to library</button>
+          </div>
+        </div>
+        <div class="card">
+          <span class="label">Add a Wikipedia article</span>
+          <p class="hint">Type a topic exactly as on Wikipedia, e.g. "Taj Mahal" or "Photosynthesis".</p>
+          <div class="row">
+            <input type="text" id="wiki-topic" placeholder="Topic name">
+            <button class="primary" id="wiki-btn">Fetch &amp; add</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="library-head">
+          <span class="label" id="library-title">Library</span>
+          <input type="search" id="library-filter" placeholder="Filter sources…">
+        </div>
+        <ul class="library" id="library"></ul>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section id="results" hidden>
+      <div class="summary card">
+        <div class="ring-wrap">
+          <svg viewBox="0 0 120 120" class="ring">
+            <circle cx="60" cy="60" r="52" class="ring-track"/>
+            <circle cx="60" cy="60" r="52" class="ring-copied" id="ring-copied"/>
+            <circle cx="60" cy="60" r="52" class="ring-para" id="ring-para"/>
+          </svg>
+          <div class="ring-label"><strong id="res-percent">0%</strong><span>similarity</span></div>
+        </div>
+        <div class="summary-text">
+          <span class="verdict" id="res-verdict">Original</span>
+          <p id="res-explain"></p>
+          <div class="legend">
+            <span><i class="sw copied"></i>Copied <b id="res-copied">0%</b></span>
+            <span><i class="sw para"></i>Paraphrased <b id="res-para">0%</b></span>
+            <span><i class="sw orig"></i>Original <b id="res-orig">0%</b></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="result-grid">
+        <div class="card doc-card">
+          <span class="label">Highlighted document</span>
+          <p class="hint">Hover or tap a highlighted sentence to see where it came from.</p>
+          <div class="doc" id="res-doc"></div>
+        </div>
+        <aside class="side">
+          <div class="card">
+            <span class="label">Matched sources</span>
+            <ul class="bars" id="res-sources"></ul>
+          </div>
+          <div class="card">
+            <span class="label">Similarity by method</span>
+            <ul class="bars methods" id="res-methods"></ul>
+          </div>
+        </aside>
+      </div>
+
+      <details class="card details">
+        <summary>Sentence-by-sentence scores</summary>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>#</th><th>Sentence</th><th>Label</th><th>N-gram</th><th>TF-IDF</th><th>SBERT</th></tr></thead>
+            <tbody id="res-table"></tbody>
+          </table>
+        </div>
+      </details>
+    </section>
+  </main>
+
+  <div class="tooltip" id="tooltip" hidden></div>
+  <div class="overlay" id="overlay" hidden>
+    <div class="spinner"></div>
+    <p id="overlay-msg">Analysing sentences…</p>
+  </div>
+  <div class="toast" id="toast" hidden></div>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

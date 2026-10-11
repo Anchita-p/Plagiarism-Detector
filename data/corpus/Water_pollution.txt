@@ -1,0 +1,52 @@
+Water pollution (or aquatic pollution) is the contamination of water bodies, which has a negative impact on how they can be used. It is usually caused by human activities. Water bodies include lakes, rivers, oceans, aquifers, reservoirs and groundwater. Water pollution results when contaminants mix with these water bodies. Contaminants can come from one of four main sources. These are sewage discharges, industrial activities, agricultural activities, and urban runoff including stormwater. Water pollution may affect either surface water or groundwater. This form of pollution can lead to many problems. One is the degradation of aquatic ecosystems. Another is spreading water-borne diseases when people use polluted water for drinking or irrigation. Water pollution also reduces the ecosystem services such as drinking water provided by the water resource.
+Sources of water pollution are either point sources or non-point sources. Point sources have one identifiable cause, such as a storm drain, a wastewater treatment plant, or an oil spill. Non-point sources are more diffuse. An example is agricultural runoff. Pollution is the result of the cumulative effect over time. Pollution may take many forms. One would be toxic substances such as oil, metals, plastics, pesticides, persistent organic pollutants, and industrial waste products. Another is stressful conditions such as changes of pH, hypoxia or anoxia, increased temperatures, excessive turbidity, or changes of salinity). The introduction of pathogenic organisms is another. Contaminants may include organic and inorganic substances. A common cause of thermal pollution is the use of water as a coolant by power plants and industrial manufacturers.
+The control of water pollution requires appropriate infrastructure and management plans, as well as legislation. Technology solutions can include improving sanitation, sewage treatment, industrial wastewater treatment, agricultural wastewater treatment, erosion control, sediment control and control of urban runoff (including stormwater management).
+
+A practical definition of water pollution is: "Water pollution is the addition of substances or energy forms that directly or indirectly alter the nature of the water body in such a manner that negatively affects its legitimate uses." Water is usually considered polluted when it is contaminated by anthropogenic substances. This means that it either cannot be used for certain purposes, such as for drinking, or its ability to support its biotic communities, such as fish, has changed significantly.
+
+The following compounds can all reach water bodies via raw sewage or even treated sewage discharges:
+
+Various chemical compounds found in personal hygiene and cosmetic products.
+Disinfection by-products found in chemically disinfected drinking water (whilst these chemicals can be a pollutant in the water distribution network, they are fairly volatile and therefore not usually found in environmental waters).
+Hormones (from animal husbandry and residue from human hormonal contraception methods) and synthetic materials such as phthalates that mimic hormones in their action. These can have adverse impacts even at very low concentrations on the natural biota and potentially on humans if the water is treated and utilized for drinking water.
+Insecticides and herbicides, often from agricultural runoff.
+Pathogens like Hepatovirus A (HAV may be present in treated wastewater outflows and receiving water bodies but is largely removed during further treatment of drinking water)
+Inadequately treated wastewater can convey nutrients, pathogens, heterogenous suspended solids and organic fecal matter.
+
+Examples of pathogens that can be found in wastewater are bacteria, viruses, protozoans and parasitic worms. In practice, indicator organisms are used to investigate pathogenic pollution of water because detecting pathogenic organisms in water samples is difficult and costly due to their low concentrations. The most commonly used (bacterial indicator) of fecal contamination in water samples most commonly used are total coliforms (TC) or fecal coliforms (FC), the latter of which are also referred to as thermotolerant coliforms, such as Escherichia coli.
+Pathogens can produce waterborne diseases in either human or animal hosts. Some microorganisms sometimes found in contaminated surface waters that have caused human health problems include Burkholderia pseudomallei, Cryptosporidium parvum, Giardia lamblia, Salmonella, norovirus and other viruses, and parasitic worms including the Schistosoma type.
+High levels of pathogens in water bodies can be caused by human feces (due to open defecation), sewage, blackwater, or manure that has found its way into the water. This can be due to a lack of adequate sanitation procedures or poorly functioning on-site sanitation systems (septic tanks, pit latrines), sewage treatment plants without disinfection steps, sanitary sewer overflows and combined sewer overflows (CSOs) during storm events and intensive agriculture (poorly managed livestock operations).
+
+Organic substances that enter water bodies are often toxic.
+
+Petroleum hydrocarbons, including fuels (gasoline, diesel fuel, jet fuels, and fuel oil) and lubricants (motor oil), and fuel combustion byproducts, from oil spills or storm water runoff
+Volatile organic compounds, such as improperly stored industrial solvents. Problematic species are organochlorides such as polychlorinated biphenyl (PCBs) and trichloroethylene, a common solvent.
+Per- and polyfluoroalkyl substances (PFAS) are persistent organic pollutants.
+
+Inorganic water pollutants include:
+
+Ammonia from food processing waste
+Heavy metals from motor vehicles (via urban storm water runoff) and acid mine drainage
+Nitrates and phosphates, from sewage and agriculture (see nutrient pollution)
+Silt (sediment) in runoff from construction sites or sewage, logging, slash and burn practices land clearing sites
+Salt: Freshwater salinization is the process of salty runoff contaminating freshwater ecosystems. Human-induced salinization is termed as secondary salinization, with the use of de-icing road salts as the most common form of runoff.
+
+Environmental persistent pharmaceutical pollutants, which can include various pharmaceutical drugs and their metabolites (see also drug pollution), such as antidepressant drugs, antibiotics or the contraceptive pill.
+Metabolites of illicit drugs (see also wastewater epidemiology), for example methamphetamine and ecstasy.
+
+Solid waste can enter water bodies through untreated sewage, combined sewer overflows, urban runoff, and people discarding garbage into the environment. Wind can also carry municipal solid waste from landfills, resulting in macroscopic pollution, where large visible items pollute the water, as well as microplastic pollution that is not directly visible. The terms marine debris and marine plastic pollution are used in the context of pollution of oceans.
+Microplastics persist in the environment at high levels, particularly in aquatic and marine ecosystems, where they cause water pollution. 35% of all ocean microplastics come from textiles/clothing, primarily due to the erosion of polyester, acrylic, or nylon-based clothing, often during the washing process.
+The main ways in which microplastics are transported from land to sea are via stormwater, untreated sewage and wind. The most common sources of microplastics are synthetic fabrics, tyres, and urban dust. These three sources together account for over 80% of all microplastic contamination.
+
+Surface water pollution includes pollution of rivers, lakes and oceans. A subset of surface water pollution is marine pollution which affects the oceans. Nutrient pollution refers to contamination by excessive inputs of nutrients.
+As of 2017, an estimated 4.5 billion people globally did not have access to safely managed sanitation, according to the Joint Monitoring Programme for Water Supply and Sanitation. Lack of access to sanitation is a serious issue which often leads to water pollution. For example, open defecation can result in human feces being moved from the ground into surface waters during rain events or floods. Simple pit latrines may also flood during heavy rainfall.
+As of 2022, Europe and Central Asia account for around 16% of the global discharge of microplastics into the seas. Although the management of plastic waste and its recycling is improving globally, the absolute amount of plastic pollution continues to increase unabated due to the large quantity of plastic in circulation.  Even if sea plastic pollution were to stop entirely, microplastic contamination of the surface ocean would be projected to continue to increase.
+
+Increased water temperatures decrease oxygen levels due to lower levels of dissolved oxygen, as gases are less soluble in warmer liquids. This can kill fish, which may then rot, and alter the composition of the food chain, reducing species biodiversity and fostering the invasion of new thermophilic species.
+
+The introduction of aquatic invasive organisms is also a form of water pollution, i.e., biological pollution.
+
+In many parts of the world, groundwater pollution endangers the well-being of people and ecosystems. One quarter of the world's population relies on groundwater for drinking water, yet concentrated recharge is known to carry short-lived contaminants into carbonate aquifers, endangering the purity of these waters.
+
+Point source water pollution refers to contaminants entering a waterway from a single, identifiable source, such as a pipe or ditch. Examples of sources in this category include discharges from sewage treatment plants, factories, and city storm drains.
+The U.S. Clean Water Act (CWA) defines point source for regulatory enforcement purposes (see United States regulation of point source water pollution). The CWA definition of point source was amended in 1987 to include municipal storm sewer systems, as well as industrial storm water, such as from construction sites.

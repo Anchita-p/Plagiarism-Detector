@@ -1,0 +1,51 @@
+Big data primarily refers to data sets that are too large or complex to be dealt with by traditional data-processing software. Data with many entries (rows) offers greater statistical power, while data with higher complexity (more attributes or columns) may lead to a higher false discovery rate.
+Big data analysis challenges include capturing data, data storage, data analysis, search, sharing, transfer, visualization, querying, updating, information privacy, and data sources. Big data was originally associated with three key concepts: volume, variety, and velocity. The analysis of big data that have only volume, velocity, and variety can pose challenges in sampling. A fourth concept, veracity, which refers to the level of reliability of data, was thus added. Without sufficient investment in expertise to ensure big data veracity, the volume and variety of data can produce costs and risks that exceed an organization's capacity to create and capture value from big data.
+Current usage of the term big data tends to refer to the use of predictive analytics, user behavior analytics, or certain other advanced data analytics methods that extract value from big data, and seldom to a particular size of data set. "There is little doubt that the quantities of data now available are indeed large, but that's not the most relevant characteristic of this new data ecosystem."
+Analysis of data sets can find new correlations to "spot business trends, prevent diseases, combat crime and so on". Scientists, business executives, medical practitioners, advertising and governments alike regularly meet difficulties with large datasets in areas including Internet searches, fintech, healthcare analytics, geographic information systems, urban informatics, and business informatics. Scientists encounter limitations in e-Science work, including meteorology, genomics, connectomics, complex physics simulations, biology, and environmental research.
+The size and number of available data sets have grown rapidly as data is collected by devices such as mobile devices, cheap and numerous information-sensing Internet of things devices, aerial (remote sensing) equipment, software logs, cameras, microphones, radio-frequency identification (RFID) readers and wireless sensor networks. The world's technological per-capita capacity to store information has roughly doubled every 40 months since the 1980s; as of 2012, every day 2.5 exabytes (2.17×260 bytes) of data are generated. Based on an IDC report prediction, the global data volume was predicted to grow exponentially from 4.4 zettabytes to 44 zettabytes between 2013 and 2020. By 2025, IDC predicts there will be 163 zettabytes of data. According to IDC, global spending on big data and business analytics (BDA) solutions is estimated to reach $215.7 billion in 2021. Statista reported that the global big data market is forecasted to grow to $103 billion by 2027. In 2011 McKinsey & Company reported, if US healthcare were to use big data creatively and effectively to drive efficiency and quality, the sector could create more than $300 billion in value every year. In the developed economies of Europe, government administrators could save more than €100 billion ($149 billion) in operational efficiency improvements alone by using big data. And users of services enabled by personal-location data could capture $600 billion in consumer surplus. One question for large enterprises is determining who should own big-data initiatives that affect the entire organization.
+Relational database management systems and desktop statistical software packages used to visualize data often have difficulty processing and analyzing big data. The processing and analysis of big data may require "massively parallel software running on tens, hundreds, or even thousands of servers". What qualifies as "big data" varies depending on the capabilities of those analyzing it and their tools. Furthermore, expanding capabilities make big data a moving target. "For some organizations, facing hundreds of gigabytes of data for the first time may trigger a need to reconsider data management options. For others, it may take tens or hundreds of terabytes before data size becomes a significant consideration."
+
+The term big data has been in use since the 1990s, with some giving credit to John Mashey for popularizing the term.  Big data usually includes data sets with sizes beyond the ability of commonly used software tools to capture, curate, manage, and process data within a tolerable elapsed time.  Big data philosophy encompasses unstructured, semi-structured and structured data; however, the main focus is on unstructured data. Big data "size" is a constantly moving target; as of 2012 ranging from a few dozen terabytes to many zettabytes of data.  Big data requires a set of techniques and technologies with new forms of integration to reveal insights from datasets that are diverse, complex, and of a massive scale. Variability is often included as an additional quality of big data.
+A 2018 definition states "Big data is where parallel computing tools are needed to handle data", and notes, "This represents a distinct and clearly defined change in the computer science used, via parallel programming theories, and losses of some of the guarantees and capabilities made by Codd's relational model."
+In a comparative study of big datasets, Kitchin and McArdle found that none of the commonly considered characteristics of big data appear consistently across all of the analyzed cases. For this reason, other studies identified the redefinition of power dynamics in knowledge discovery as the defining trait. Instead of focusing on the intrinsic characteristics of big data, this alternative perspective pushes forward a relational understanding of the object claiming that what matters is the way in which data is collected, stored, made available and analyzed.
+
+The growing maturity of the concept more starkly delineates the difference between "big data" and "business intelligence":
+
+Business intelligence uses applied mathematics tools and descriptive statistics with data with high information density to measure things, detect trends, etc.
+Big data uses mathematical analysis, optimization, inductive statistics, and concepts from nonlinear system identification to infer laws (regressions, nonlinear relationships, and causal effects) from large sets of data with low information density to reveal relationships and dependencies, or to perform predictions of outcomes and behaviors.
+
+Big data can be described by the following characteristics:
+
+Volume
+The quantity of generated and stored data. The size of the data determines the value and potential insight, and whether it can be considered big data or not. The size of big data is usually larger than terabytes and petabytes.
+Variety
+The type and nature of the data. Earlier technologies like RDBMSs were capable to handle structured data efficiently and effectively. However, the change in type and nature from structured to semi-structured or unstructured challenged the existing tools and technologies. Big data technologies evolved with the prime intention to capture, store, and process the semi-structured and unstructured (variety) data generated with high speed (velocity), and huge in size (volume). Later, these tools and technologies were explored and used for handling structured data also but preferable for storage. Eventually, the processing of structured data was still kept as optional, either using big data or traditional RDBMSs. This helps in analyzing data towards effective usage of the hidden insights exposed from the data collected via social media, log files, sensors, etc. Big data draws from text, images, audio, video; plus it completes missing pieces through data fusion.
+Velocity
+The speed at which the data is generated and processed to meet the demands and challenges that lie in the path of growth and development. Big data is often available in real-time. Compared to small data, big data is produced more continually. Two kinds of velocity related to big data are the frequency of generation and the frequency of handling, recording, and publishing.
+Veracity
+The truthfulness or reliability of the data, which refers to the data quality and the data value. Big data must not only be large in size, but also must be reliable in order to achieve value in the analysis of it. The data quality of captured data can vary greatly, affecting an accurate analysis.
+Value
+The worth in information that can be achieved by the processing and analysis of large datasets. Value also can be measured by an assessment of the other qualities of big data. Value may also represent the profitability of information that is retrieved from the analysis of big data.
+Variability
+Unlike variety, variability captures the notion the fact that formats, structure, or sources of big data change through time and given different circumstances. Interpretation of data depends on a changing context, and with a different context, the old meanings may become invalid.
+Other possible characteristics of big data are:
+
+Exhaustive
+Whether the entire system (i.e., 
+  
+    
+      
+        n
+      
+    
+    {\textstyle n}
+  
+=all) is captured or recorded or not. Big data may or may not include all the available data from sources.
+Fine-grained and uniquely lexical
+Respectively, the proportion of specific data of each element per element collected and if the element and its characteristics are properly indexed or identified.
+Relational
+If the data collected contains common fields that would enable a conjoining, or meta-analysis, of different data sets.
+Extensional
+If new fields in each element of the data collected can be added or changed easily.
+Scalability
+If the size of the big data storage system can expand rapidly.

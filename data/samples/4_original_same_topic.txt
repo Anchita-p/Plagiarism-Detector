@@ -1,0 +1,5 @@
+Last semester our team built a small project to sort customer emails into complaint, query and feedback folders. We collected around two thousand old emails from a local shop and labelled them by hand over a weekend, which taught us how boring and important data labelling is.
+
+Our first attempt used a simple bag-of-words model and it confused polite complaints with feedback very often. After adding the subject line as a separate feature and balancing the classes, the accuracy on our held-out set went from about seventy percent to eighty-six percent.
+
+The biggest lesson for me was that most of the time went into cleaning messy text, removing signatures and fixing spelling, not into choosing the model. Next year I want to try the same task in Hindi and English mixed messages, because many of the shop's customers write that way.

@@ -1,0 +1,47 @@
+In physics, gravity (from Latin  gravitas 'weight'), also known as gravitation or a gravitational interaction, is a fundamental interaction, which may be described as the force that draws material objects towards each other.
+The gravitational attraction between clouds of primordial hydrogen and clumps of dark matter in the early universe caused the hydrogen gas to coalesce, eventually condensing and fusing to form stars. At larger scales this resulted in galaxies and clusters, so gravity is a primary driver for the large-scale structures in the universe. Gravity has an infinite range, although its effects become weaker as objects get farther away.
+Gravity is described by the general theory of relativity, proposed by Albert Einstein in 1915, which describes gravity in terms of the curvature of spacetime, caused by the uneven distribution of mass. The most extreme example of this curvature of spacetime is a black hole, from which nothing—not even light—can escape once past the black hole's event horizon. However, for most applications, gravity is sufficiently well approximated by Newton's law of universal gravitation, which describes gravity as an attractive force between any two bodies that is proportional to the product of their masses and inversely proportional to the square of the distance between them.
+Scientists are looking for a theory that describes gravity in the framework of quantum mechanics (quantum gravity), which would unify gravity and the other known fundamental interactions of physics in a single mathematical framework (a theory of everything).
+On the surface of a planetary body such as on Earth, the force of gravity operates towards the center of the body and is modified by the centrifugal effects arising from the rotation of the body. In this context, gravity gives weight to physical objects and is essential to understanding the mechanisms that are responsible for surface water waves, lunar tides and substantially contributes to weather patterns. Gravitational weight also has many important biological functions, helping to guide the growth of plants through the process of gravitropism and influencing the circulation of fluids in multicellular organisms.
+
+Gravity is the word used to describe a physical law, a fundamental physical interaction that derives primarily from mass, and the observed consequences of that interaction on objects. Gravity is the law that every object with mass attracts every other object in the universe in proportion to each mass and inversely proportional to the square of the distance between them. The force of gravity, F is written using the gravitational constant, G, as 
+
+  
+    
+      
+        F
+        =
+        G
+        
+          
+            
+              m
+              
+                m
+                ′
+              
+            
+            
+              r
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle F=G{\frac {mm'}{r^{2}}}}
+  
+
+for two masses, m, and m′ separated by a distance r.
+Gravity is considered to be one of four fundamental interactions. The electromagnetic force law is similar to the force law for gravity: both depend upon the square of the inverse distance between objects in typical interactions. The ratio of gravitational attraction of two electrons to their electrical repulsion is 1 to 4.17×1042. As a result, gravity can generally be neglected at the level of subatomic particles. Gravity becomes the most significant interaction between objects at the scale of astronomical bodies, and it determines the motion of satellites, planets, stars, galaxies, and even light. Gravity is also fundamental in another sense: the inertial mass that appears in Newton's second law is the same as the gravitational mass. This equivalence principle is a scientific hypothesis that has been tested experimentally to more than one part in a trillion.
+
+The nature and mechanism of gravity were explored by a wide range of ancient scholars. In Ancient Greece, Aristotle believed that each of the classical elements had a natural place in the universe which it tends to move toward – earth at the center of the universe (the center of the Earth, which was known to be spherical); then water, air, fire, and aether in concentric shells from inner to outer. He also thought that the speed of a falling object should increase with its weight, a conclusion that was later shown to be false. While Aristotle's view was widely accepted throughout Ancient Greece, there were other thinkers such as Plutarch who correctly predicted that the attraction of gravity was not unique to the Earth.
+Although he did not understand gravity as a force, the ancient Greek philosopher Archimedes discovered the center of gravity of a triangle. He postulated that if two equal weights did not have the same center of gravity, the center of gravity of the two weights together would be in the middle of the line that joins their centers of gravity. Two centuries later, the Roman engineer and architect Vitruvius contended in his De architectura that gravity is not dependent on a substance's weight but rather on its "nature". In the 6th century CE, the Byzantine Alexandrian scholar John Philoponus proposed the theory of impetus, which modifies Aristotle's theory that "continuation of motion depends on continued action of a force" by incorporating a causative force that diminishes over time.
+In 628 CE, the Indian mathematician and astronomer Brahmagupta proposed the idea that gravity is an attractive force that draws objects to the Earth and used the term gurutvākarṣaṇ to describe it.
+In the ancient Middle East, gravity was a topic of fierce debate. The Persian intellectual Al-Biruni believed that the force of gravity was not unique to the Earth, and he correctly assumed that other heavenly bodies should exert a gravitational attraction as well. In contrast, Al-Khazini held the same position as Aristotle that all matter in the Universe is attracted to the center of the Earth.
+
+In the mid-16th century, various European scientists experimentally disproved the Aristotelian notion that heavier objects fall at a faster rate. In particular, the Spanish Dominican priest Domingo de Soto wrote in 1551 that bodies in free fall uniformly accelerate. De Soto may have been influenced by earlier experiments conducted by other Dominican priests in Italy, including those by Benedetto Varchi, Francesco Beato, Luca Ghini, and Giovan Bellaso which contradicted Aristotle's teachings on the fall of bodies.
+The mid-16th century Italian physicist Giambattista Benedetti published papers claiming that, due to specific gravity, objects made of the same material but with different masses would fall at the same speed. With the 1586 Delft tower experiment, the Flemish physicist Simon Stevin observed that two cannonballs of differing sizes and weights fell at the same rate when dropped from a tower.
+In the late 16th century, Galileo Galilei's careful measurements of balls rolling down inclines allowed him to firmly establish that gravitational acceleration is the same for all objects. Galileo postulated that air resistance is the reason that objects with a low density and high surface area fall more slowly in an atmosphere. In his 1638 work Two New Sciences, Galileo proved that the distance traveled by a falling object is proportional to the square of the time elapsed. His method was a form of graphical numerical integration since concepts of algebra and calculus were unknown at the time. This was later confirmed by Italian scientists Grimaldi and Riccioli between 1640 and 1650. They also calculated the magnitude of the Earth's gravity by measuring the oscillations of a pendulum.

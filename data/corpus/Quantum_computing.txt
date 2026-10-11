@@ -1,0 +1,74 @@
+A quantum computer is a computer that represents and processes information using quantum states. Quantum computations exploit phenomena such as superposition, interference, and entanglement. Quantum computers have the potential to complete some calculations exponentially faster than classical computers. For example, a large-scale quantum computer could break widely used encryption schemes and aid physicists in performing physical simulations. However, current hardware implementations of quantum computation are largely experimental and suitable for only certain specialized tasks.
+The basic unit of information in quantum computing, the qubit (quantum bit), serves a similar function as the bit in ordinary or "classical" computing. Unlike a classical bit, which can be in one of two states (a binary), a qubit can exist in a linear combination of states known as a quantum superposition. The result of measuring a qubit is one of the two states, given by a probabilistic rule. If a quantum computer manipulates the qubit in a particular way, wave interference effects amplify the probability of the desired measurement result. Quantum algorithm design involves creating procedures that allow a quantum computer to perform this amplification.
+Quantum computers are not yet practical for real-world applications. If a physical qubit is not sufficiently isolated from its environment, it suffers from quantum decoherence, introducing noise (error) into calculations. Governments have invested in research aimed at developing qubits with longer coherence times and lower error rates. Example implementations include superconductors (which isolate an electrical current by eliminating electrical resistance) and ion traps (which confine a single atomic particle using electromagnetic fields). Researchers have claimed that quantum devices can outperform classical computers on specific tasks, a metric referred to as quantum advantage or quantum supremacy. Such tasks are not necessarily useful for real-world applications. As a result, as of 2026 demonstrations are best understood as scientific milestones rather than evidence for near-term deployment. Global government investment in quantum computing reached $10 billion by April 2025.
+
+Quantum mechanics and computer science formed distinct academic communities until the advent of quantum computing. Quantum theory was developed in the 1920s to explain perplexing physical phenomena. Computers emerged decades later.
+As physicists applied quantum mechanical models to computational problems and swapped bits for qubits, quantum mechanics and computer science began to converge. In 1980, Paul Benioff introduced the quantum Turing machine, which used quantum theory to describe a simplified computer. As digital computers became faster, physicists faced an exponential increase in overhead when simulating quantum dynamics, prompting Yuri Manin and Richard Feynman to independently suggest that hardware based on quantum phenomena might be more efficient for computer simulation. In a 1984 paper, Charles Bennett and Gilles Brassard applied quantum theory to cryptography protocols and demonstrated that quantum key distribution could enhance information security.
+Quantum algorithms then emerged for solving oracle problems, such as Deutsch's algorithm in 1985, the Bernstein–Vazirani algorithm in 1993, and Simon's algorithm in 1994. These algorithms did not solve practical problems, but demonstrated mathematically that more information could be obtained by querying a black box with a quantum state in superposition, sometimes referred to as quantum parallelism.
+
+Peter Shor built on these results in 1994 with polynomial-time quantum algorithms for integer factorization and the discrete logarithm problem. A sufficiently large quantum computer could therefore break widely used public-key cryptography systems: efficient factorization would compromise RSA, while an efficient discrete-logarithm algorithm would compromise Diffie–Hellman key exchange. The cryptographic implications of Shor's algorithm drew attention to quantum computing. In 1996, Grover's algorithm established a quantum speedup for the unstructured search problem. The same year, Seth Lloyd proved that quantum computers could simulate quantum systems without the exponential overhead required by classical simulations, validating Feynman's 1982 conjecture.
+Experimentalists constructed small-scale quantum computers using trapped ions and superconductors. In 1998, a two-qubit quantum computer demonstrated technical feasibility. Subsequent experiments increased the number of qubits and reduced error rates.
+In 2019, Google AI and NASA announced that they had achieved quantum supremacy with a 54-qubit machine, performing a computation that classical supercomputers would take an estimated 10,000 years to complete—a claim subsequently disputed by IBM, which argued the calculation could be done in approximately 2.5 days on its Summit supercomputer with optimized algorithms, sparking a debate over the threshold for this milestone.
+Quantum computing increasingly focused on controlling decoherence through quantum error correction. In 2024, researchers demonstrated approaches for high threshold, low-overhead fault-tolerant quantum memory. These developments represented a critical step toward scaling systems beyond the noisy intermediate-scale quantum (NISQ) era into the fault-tolerant application scale quantum computing (FASQ) era, though large-scale physical implementation remains an engineering challenge.
+
+Computer engineers typically describe a modern computer's operation in terms of classical electrodynamics. In these computers, components, such as semiconductors and random number generators,  may rely on quantum behavior; however, because they are not isolated from their environment, any quantum information eventually quickly decoheres. While programmers may depend on probability theory when designing a randomized algorithm, quantum-mechanical notions such as superposition and wave interference are largely irrelevant in program analysis.
+The "classical" in classical computation thus refers to the computational model, not to whether the microscopic physics of the hardware is ultimately quantum-mechanical. A conventional digital computer can be described by classical states and transition rules: memory stores bits, while logic elements transform one configuration of bits into another. This computational behavior is not tied to electronics, and can be abstracted through the idea of a Turing machine, a mechanical device that performs deterministic transformations on a finite state. In principle, the same classical transition rules can be implemented by some entirely classical mechanical device, possibly with a fixed slow-down in physical time. If a classical computation uses randomness, this can be modeled as access to random classical bits rather than as coherent quantum information. A quantum computer, by contrast, uses coherent quantum states, so that superposition, relative phase, and interference are part of the computation itself, and have no classical counterpart.
+Quantum programs instead rely on precise control of coherent quantum systems. Physicists describe these systems mathematically using linear algebra. Complex numbers model probability amplitudes, vectors model quantum states, and matrices model the operations that can be performed on these states. Programming a quantum computer is then a matter of composing operations in such a way that the resulting program computes a useful result in theory and is implementable in practice.
+Physicist Charlie Bennett noted that since classical computers are composed of quantum atoms, one might study them from the opposite direction:
+
+A classical computer is a quantum computer ... so we shouldn't be asking about "where do quantum speedups come from?" We should say, "Well, all computers are quantum. ... Where do classical slowdowns come from?"
+
+The bit is the basic concept of classical information theory. A bit is in one of two physical states, typically denoted 0 and 1.
+The qubit is the unit of quantum information. A qubit is an abstract mathematical model that applies to any physical system that is represented by that model.  When measured, a qubit takes one of two states  
+  
+    
+      
+        
+          |
+        
+        0
+        ⟩
+      
+    
+    {\displaystyle |0\rangle }
+  
+ or 
+  
+    
+      
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle |1\rangle }
+  
+. However, the quantum states 
+  
+    
+      
+        
+          |
+        
+        0
+        ⟩
+      
+    
+    {\displaystyle |0\rangle }
+  
+ and 
+  
+    
+      
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle |1\rangle }
+  
+ belong to a vector space, meaning that they can be multiplied by constants and added together, returning a valid quantum state. Such a combination is known as a superposition of

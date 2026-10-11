@@ -1,0 +1,58 @@
+5G is the fifth and current generation of cellular network technology and the successor to 4G. In common commercial use, the term refers primarily to mobile networks based on the 3rd Generation Partnership Project (3GPP) 5G system and its New Radio (NR) air interface, which were first specified in 3GPP Release 15. 5G was developed to meet the International Telecommunication Union's IMT-2020 framework for fifth-generation mobile systems. Large-scale commercial deployments began in 2019, including South Korea's national 5G rollout. 5G networks may be deployed in non-standalone mode, using existing LTE core-network infrastructure, or in standalone mode with a dedicated 5G Core.
+Like earlier cellular systems, 5G networks divide service areas into smaller zones called cells, which are served by fixed cell sites. Compatible devices connect by radio to local base stations, which are linked to an operator's core network and to external networks such as the Internet through backhaul connections. 5G can be deployed using low-band, mid-band, and high-band radio spectrum, with coverage and performance depending heavily on the frequencies used, network design, congestion, and device capabilities.
+Compared with 4G, 5G is designed to provide higher data rates, greater network capacity, lower latency, improved support for dense device deployments, and more flexible network management. For IMT-2020 radio-interface evaluation, the ITU specified peak data-rate requirements of 20 Gbit/s downlink and 10 Gbit/s uplink under ideal conditions, as well as latency and connection-density targets for enhanced mobile broadband, ultra-reliable low-latency communications, and massive machine-type communications. Actual user speeds are typically much lower than peak values and vary by operator, location, spectrum band, signal quality, and network load.
+
+5G is used for mobile broadband, fixed wireless access, private and industrial networks, and machine-type communications. Its standards support features such as network slicing, edge computing, non-public networks, and ultra-reliable low-latency services, although these capabilities are not present in every deployment. The rollout of 5G has required new spectrum allocations and upgrades to radio access, transport, and core-network infrastructure. It has also raised issues involving deployment cost, energy use, vendor security, and public claims about radio-frequency health effects. 5G is being deployed alongside 4G networks and is expected to coexist with them for many years.
+
+In 2008, NASA and the Machine-to-Machine Intelligence Corporation (M2Mi) conducted nanosatellite communication studies that influenced early next-generation network concepts.  
+In 2012, New York University established NYU Wireless, a research center focused on millimeter-wave communication. The same year, the University of Surrey founded the 5G Innovation Centre, funded by £35 million from public and industry partners including Huawei and Samsung. Also in 2012, the European Union launched the Mobile and Wireless Communications Enablers for the Twenty-Twenty Information Society (METIS) project to align emerging network research with international standardization.  
+
+In 2013, the ITU-R Working Party 5D began studies on IMT-2020, later formalized as the 5G standard.  
+During the same period, major firms such as Samsung Electronics, NTT Docomo, and Huawei conducted early trials. Samsung tested a prototype achieving more than 1 Gbit/s across 2 km using 8 × 8 MIMO antennas. NTT Docomo received a government award at CEATEC for high-speed network development, while Huawei announced a US$600 million program to advance mobile network technology.  
+
+On April 3, 2019, South Korea launched its national network, the first full commercial deployment. Hours later, Verizon began limited service in select U.S. cities. In June 2019, Globe Telecom introduced the Philippines' first next-generation network, and in December 2019, AT&T launched a consumer service in the United States that expanded nationwide during 2020.  
+Commercial 5G deployment expanded rapidly through 2020. Beyond public mobile networks, it was also adopted in private industrial and enterprise systems, including operation in unlicensed spectrum (NR-U) and licensed non-public networks (NPNs). Private 5G networks became important for Industry 4.0 automation and smart manufacturing. Early rollouts used non-standalone (NSA) mode—with 4G cores—before networks transitioned to standalone (SA) mode with dedicated 5G cores.
+South Korea's 2019 rollout used equipment from Samsung, Ericsson, and Nokia; LG U Plus also deployed Huawei hardware.  
+Samsung supplied most of the roughly 86,000 sites, while SK Telecom, KT Corporation, and LG U Plus concentrated coverage in major cities using the 3.5 GHz band under NSA operation. Reported download speeds averaged 200–400 Mbit/s, and subscriptions grew from about 260,000 to 4.7 million during 2019.  
+Following these early deployments, T-Mobile US launched the first nationwide standalone network in 2020. In the United States, T-Mobile's merger with Sprint closed on April 1, 2020, after approval by the Department of Justice on the condition that the combined company help Dish build a fourth nationwide wireless network and that T-Mobile freeze prices for three years. The merger gave T-Mobile control of Sprint's 2.5 GHz spectrum holdings, which became the foundation of its subsequent mid-band 5G expansion. Ericsson projected that by the mid-2020s, 5G networks would reach about 65 percent of the global population.
+Major suppliers of 5G radio and core systems included Altiostar, Cisco Systems, Datang Telecom/Fiberhome, Ericsson, Huawei, Nokia, Qualcomm, Samsung, and ZTE. Huawei was estimated to hold about 70 percent of global 5G base stations by 2023.
+
+By 2022, network speeds in many regions had stabilized, and operators began testing 5.5G upgrades to improve capacity and latency. By the early 2020s, large-scale commercial 5G networks were active across most developed markets, and rollout in developing regions was still accelerating.
+
+Small cells are low-power radio nodes that extend network capacity in dense or indoor areas. They operate over short distances, typically a few dozen to a few hundred metres, and are used to maintain coverage for mmWave signals.
+
+Massive multiple-input multiple-output (MIMO) systems use large antenna arrays to increase capacity and spectral efficiency. They extend conventional MIMO by serving multiple users simultaneously and steering signals toward them to reduce interference.
+
+Beamforming directs radio energy toward specific users. In analogue beamforming, antenna outputs are combined to focus signal power in one direction. Digital beamforming transmits data streams across multiple layers to improve signal strength and reliability.
+
+Non-orthogonal multiple access assigns different power levels to users sharing the same frequency resources to improve spectral efficiency.
+
+5G NR uses polar codes for control channels and low-density parity-check codes (LDPC) for data channels, replacing the turbo codes used in 4G.
+
+Research has explored the use of 5G mmWave networks for wireless power transfer. Studies using wavelengths between 1 mm and 10 mm remain experimental.
+
+The 5G core (5GC) is a service-oriented, software-defined system that separates control and user planes and supports flexible deployment. It replaces the 4G Evolved Packet Core with modular, software-based network functions.
+
+Software-defined networking (SDN) and network function virtualization (NFV) enable software-based configuration, scaling, and management of networks. Together with network slicing, these technologies support applications such as the Internet of things, connected vehicles, and industrial automation.
+
+Service-based architecture (SBA) integrates SDN and NFV principles and replaces the 4G EPC framework with modular network functions that communicate through RESTful APIs. Each function registers with a network repository function (NRF), which enables independent scaling and interoperability.
+
+Each network function performs a defined role within the 5G core, replacing or extending elements from the 4G EPC.
+
+Additional components manage roaming and inter-network connectivity:
+
+Non-3GPP Interworking Function (N3IWF)
+Security Edge Protection Proxy (SEPP)
+Trusted Non-3GPP Gateway Function (TNGF)
+Trusted WLAN Interworking Function (TWIF)
+Wireline Access Gateway Function (W-AGF)
+
+5G networks use multiple parts of the radio spectrum. They operate across three main frequency ranges—low, mid, and high bands—which balance speed, coverage, and signal quality differently.
+Between 2016 and 2019, regulators in many regions, including the United States and the European Union, reallocated large sections of spectrum for 5G through auctions and new licensing rules. By 2019, more than 50 countries had assigned or planned to assign 5G frequencies. In 3GPP Release 16, the standard added 5G NR-U, allowing operation in both unlicensed and licensed spectrum.
+
+The 5G New Radio (NR) interface defines two main operating ranges:
+
+Frequency Range 1 (FR1) – 410 MHz to 7.125 GHz, also called sub-6 GHz. It covers low- and mid-band frequencies and supports channel bandwidths up to 100 MHz. Typical download speeds range from 5 to 900 Mbit/s depending on conditions.
+Frequency Range 2 (FR2) – 24.25–71 GHz, known as millimeter wave or high band. It supports wider channel bandwidths—up to 400 MHz per carrier—and can reach multi-gigabit data rates. These signals travel only short distances and are easily blocked by walls, windows, and vegetation, so FR2 is mainly used in dense urban areas such as stadiums and city centers.
+
+U.S. carriers concentrated their mid-band 5G deployments on different parts of the spectrum depending on their existing spectrum holdings. T-Mobile built its network primarily around Band n41 (2.5 GHz), most of which it gained through its 2020 merger with Sprint; by 2021 the combined company held an average of about 160 MHz of 2.5 GHz spectrum nationwide, of which it targeted 100 MHz for 5G deployment. T-Mobile also used Band n71 (600 MHz), launched in December 2019, for wide-area low-band coverage.

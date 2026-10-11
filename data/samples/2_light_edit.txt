@@ -1,0 +1,3 @@
+Machine learning is a field of study within artificial intelligence that is concerned with developing and studying statistical algorithms which can learn from data and generalize to new data, and so perform tasks without being explicitly programmed. Statistics and mathematical optimization methods form the foundations of machine learning. Data mining is a closely related field, which focuses on exploratory data analysis through unsupervised learning.
+
+The term machine learning was first coined in 1959 by Arthur Samuel, who was an IBM employee and a pioneer in computer gaming and artificial intelligence. The synonym self-teaching computers was also used in this period.

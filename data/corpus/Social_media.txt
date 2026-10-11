@@ -1,0 +1,64 @@
+Social media are new media technologies that facilitate the creation, sharing and aggregation of content (such as ideas, interests, and other forms of expression) amongst virtual communities and networks. Common features include:
+
+Online platforms enable users to create and share content and participate in social networking.
+User-generated content such as text posts or comments, digital photos or videos, and data generated through online interactions.
+Service specific profiles that are designed and maintained by the social media organization.
+Social media helps the development of online social networks by connecting a user's profile with those of other individuals or groups.
+The term social in regard to media suggests platforms enable communal activity. Social media helps people connect and build networks. Users access social media through web-based or mobile applications. These interactive platforms allow individuals, communities, businesses, and organizations to share, co-create, discuss, participate in, and modify user-generated or self-curated content. Social media is used to share memories, form friendships, build communities and learn. They may be used to promote people, companies, products, and ideas. Social media can be used to consume, publish, or share news.
+Popular social media platforms with over 100 million registered users include X, Facebook, WeChat, ShareChat, Instagram, Pinterest, QZone, Weibo, VK, Tumblr, Baidu Tieba, Threads, and LinkedIn. Depending on the interpretation, other popular platforms that are sometimes referred to as social media services include YouTube, Letterboxd, QQ, Telegram, WhatsApp, Signal, LINE, Snapchat, Viber, Reddit, Discord, and TikTok. Wikis and Roblox are examples of collaborative content creation.
+
+Social media outlets differ from old media (e.g. newspapers, TV, and radio broadcasting) in many ways, including quality, reach, frequency, usability, relevancy, and permanence. Social media outlets operate in a dialogic transmission system (many sources to many receivers) while traditional media operate under a monologic transmission model (one source to many receivers). For instance, a newspaper is delivered to many subscribers, and a radio station broadcasts the same programs to a city.
+Social media has been criticized for a range of negative impacts on children and teenagers, including exposure to inappropriate content, exploitation by adults, sleep problems, attention problems, feelings of exclusion, and various mental health maladies. Social media has also received criticism as worsening political polarization and undermining democracy, exacerbated by platform capture by vested interests, with journalist Maria Ressa deeming it "toxic sludge" for increasing distrust among members of society. During the 2020s, concerns have emerged over the risk posed by the large influence of social media platforms based in the United States to the sovereignty of countries in Europe, South America and Australasia.
+Major news outlets across the world often have strong controls in place to avoid and fix false claims, but social media's unique qualities bring viral content with little to no oversight. According to the American Psychological Association,  "Algorithms that track user engagement to prioritize what is shown tend to favor content that spurs negative emotions like anger and outrage. Overall, most online misinformation originates from a small minority of "superspreaders," but social media amplifies their reach and influence."
+
+The PLATO system was launched in 1960 at the University of Illinois and subsequently commercially marketed by Control Data Corporation. It offered early forms of social media features with innovations such as Notes, PLATO's message-forum application; TERM-talk, its instant-messaging feature; Talkomatic, perhaps the first online chat room; News Report, a crowdsourced online newspaper, and blog and Access Lists, enabling the owner of a note file or other application to limit access to a certain set of users, for example, only friends, classmates, or co-workers.
+ARPANET, which came online in 1969, had by the late 1970s enabled exchange of non-government/business ideas and communication, as evidenced by the network etiquette (or "netiquette") described in a 1982 handbook on computing at MIT's Artificial Intelligence Laboratory. ARPANET evolved into the Internet in the 1990s. Usenet, conceived by Tom Truscott and Jim Ellis in 1979 at the University of North Carolina at Chapel Hill and Duke University, was the first open social media app, established in 1980.
+A precursor of the electronic bulletin board system (BBS), known as Community Memory, appeared by 1973. Mainstream BBSs arrived with the Computer Bulletin Board System in Chicago, which launched on February 16, 1978. Before long, most major US cities had more than one BBS, running on TRS-80, Apple II, Atari 8-bit computers, IBM PC, Commodore 64, Sinclair, and others. CompuServe, Prodigy, and AOL were three of the largest BBS companies and were the first to migrate to the Internet in the 1990s. Between the mid-1980s and the mid-1990s, BBSes numbered in the tens of thousands in North America alone. Message forums were the signature BBS phenomenon throughout the 1980s and early 1990s.
+
+In 1991, Tim Berners-Lee integrated HTML hypertext software with the Internet, creating the World Wide Web. This breakthrough led to an explosion of blogs, list servers, and email services. Message forums migrated to the web, and evolved into Internet forums, supported by cheaper access as well as the ability to handle far more people simultaneously.
+These early text-based systems expanded to include images and video in the 21st century, aided by digital cameras and camera phones.
+
+The evolution of online services progressed from serving as channels for networked communication to becoming interactive platforms for networked social interaction with the advent of Web 2.0.
+Social media started in the mid-1990s with the invention of platforms like Classmates.com, and SixDegrees.com. While instant messaging and chat clients existed at the time, SixDegrees was unique as it was the first online service designed for people to connect using their actual names instead of anonymously. It boasted features like profiles, friends lists, and school affiliations, making it "the very first social networking site". The platform's name was inspired by the "six degrees of separation" concept, which suggests that every person on the planet is just six connections away from everyone else.
+In the early 2000s, social media platforms gained widespread popularity with BlackPlanet (1999) preceding Friendster and Myspace, followed by Facebook, YouTube, and Twitter.
+Research from 2015 reported that globally, users spent 22% of their online time on social networks, likely fueled by the availability of smartphones. As of 2023, as many as 4.76 billion people used social media some 59% of the global population.
+
+A 2015 review identified four features unique to social media services:
+
+Web 2.0 Internet-based applications.
+User-generated content
+User-created self profiles
+Social networks formed by connections between profiles, such as followers, groups, and lists.
+In 2019, Merriam-Webster defined social media as "forms of electronic communication (such as websites for social networking and microblogging) through which users create online communities to share information, ideas, personal messages, and other content (such as videos)."
+The American National Institute of Standards and Technology defines it as "Forms of electronic communications, including websites and applications, that enable users to create and share content or to participate in social networking."
+
+Social media encompasses an expanding suite of services:   
+
+Blogs (ex. HuffPost, Boing Boing)
+Business networks (ex. LinkedIn, XING)
+Collaborative projects (Mozilla, GitHub)
+Enterprise social networks (Yammer, Socialcast, Slack)
+Forums (Gaia Online, IGN)
+Microblogs (Twitter, Tumblr, Weibo)
+Photo sharing (Pinterest, Flickr, Photobucket)
+Products/services review (Amazon, Upwork)
+Social bookmarking (Delicious, Pinterest)
+Social gaming including MMORPGs (Fortnite, World of Warcraft)
+Social network (Facebook, Instagram, Baidu Tieba, VK, QZone, ShareChat, WeChat, LINE)
+Video sharing (YouTube, DailyMotion, Vimeo)
+Virtual worlds (Second Life, Twinity)
+Some services offer more than one type of service.
+
+Mobile social media refers to the use of social media on mobile devices such as smartphones and tablets. It is distinguished by its ubiquity, since users no longer have to be at a desk in order to participate on a computer. Mobile services can use the user's location to offer information, connections, or services relevant to that location.
+According to Andreas Kaplan, mobile social media activities fall among four types:
+
+Space-timers (location and time-sensitive): Exchange of messages with relevance for a specific location at a specific point in time (posting about a traffic jam)
+Space-locators (only location sensitive): Posts/messages with relevance for a specific location, read later by others (e.g. a restaurant review)
+Quick-timers (only time sensitive): Transfer of traditional social media mobile apps to increase immediacy (e.g. posting status updates)
+Slow-timers (neither location nor time sensitive): Transfer of traditional social media applications to mobile devices (e.g. watching a video)
+
+Certain content, has the potential to spread virally, an analogy for the way viral infections spread contagiously from individual to individual. Viral videos are one example. One user spreads a post across their network, which leads those users to follow suit. A post from a relatively unknown user can reach vast numbers of people within hours. Virality is not guaranteed; few posts make the transition.
+Viral marketing campaigns are particularly attractive to businesses because they can achieve widespread advertising coverage at a fraction of the cost of traditional marketing campaigns. Nonprofit organizations and activists may also attempt to spread content virally.
+Social media sites provide specific functionality to help users re-share content, such as X's and Facebook's "like" option.
+
+Bots are automated programs that operate on the internet. They automate many communication tasks. This has led to the creation of an industry of bot providers.

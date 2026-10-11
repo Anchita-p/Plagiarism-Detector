@@ -1,0 +1,3 @@
+Machine learning is a branch of AI that builds statistical methods able to learn patterns from examples and apply them to data they have never seen, so a computer can carry out a job without someone writing explicit rules for it. The discipline rests mainly on statistics and on mathematical optimisation. A neighbouring area, data mining, concentrates on exploring datasets using unsupervised techniques.
+
+Arthur Samuel, who worked at IBM and was an early pioneer of computer games and AI, introduced the phrase "machine learning" in 1959. At that time people also called such systems self-teaching computers.
